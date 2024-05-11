@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    background-color: #FCE5F4;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.white-card {
+    background-color: #E6E6FA;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4 {
+    color: #9370DB;
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+p {
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+
+.facebook, .instagram {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.5s;
+    font-size: 24px; 
+    line-height: 1; 
+}
+
+.facebook:hover, .instagram:hover {
+    animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
